@@ -1,0 +1,20 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    mustache (0.99.4)
+    rack (1.4.1)
+    sinatra (1.2.8)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    sinatra-mustache (0.0.3)
+      mustache (~> 0.99.3)
+      sinatra (~> 1.2.3)
+      tilt (~> 1.2.2)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra
+  sinatra-mustache
